@@ -4,7 +4,7 @@ theme: uncover
 paginate: true
 ---
 
-# Tute 01 
+# Tute 02
 ## COMP1511 22T3
 ### Jack Robbers
 
