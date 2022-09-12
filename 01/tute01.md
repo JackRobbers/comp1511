@@ -38,7 +38,7 @@ icebreaker(s)
 # links
 
 course website: cgi.cse.unsw.edu.au/~cs1511/22T3
-tute code and slides: **LINK GOES HERE**
+tute code and slides: web.cse.unsw.edu.au/~z5263682/comp1511-22T3/
 my email: j.robbers@unsw.edu.au
 
 ---
