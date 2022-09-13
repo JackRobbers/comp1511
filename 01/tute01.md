@@ -37,9 +37,10 @@ icebreaker(s)
 
 # links
 
-* course website: cgi.cse.unsw.edu.au/~cs1511/22T3
-* my email: j.robbers@unsw.edu.au
-* tute code and slides: web.cse.unsw.edu.au/~z5263682/comp1511-22T3/ or github.com/JackRobbers/comp1511-22T3
+* [course website](https://cgi.cse.unsw.edu.au/~cs1511/22T3)
+* [j.robbers@unsw.edu.au](mailto:j.robbers@unsw.edu.au)
+* [tute code or slides (cse)](https://web.cse.unsw.edu.au/~z5263682/comp1511-22T3)
+* [tute code and slides (github)](https://github.com/JackRobbers/comp1511-22T3)
 
 ---
 
