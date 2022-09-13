@@ -37,9 +37,9 @@ icebreaker(s)
 
 # links
 
-course website: cgi.cse.unsw.edu.au/~cs1511/22T3
-tute code and slides: web.cse.unsw.edu.au/~z5263682/comp1511-22T3/
-my email: j.robbers@unsw.edu.au
+* course website: cgi.cse.unsw.edu.au/~cs1511/22T3
+* my email: j.robbers@unsw.edu.au
+* tute code and slides: web.cse.unsw.edu.au/~z5263682/comp1511-22T3/ or github.com/JackRobbers/comp1511-22T3
 
 ---
 
@@ -91,6 +91,14 @@ lab 1 doesn't count, 8 other labs do
 
 ---
 
+# assignment 0
+
+due week 3 Friday - 30 September 8pm
+
+released in parts each week
+
+---
+
 # questions 
 
 ---
@@ -130,6 +138,6 @@ drawing but on the computer
 * `printf()`
 * semicolons - ;
 * indentation
-* `\n` and escaping
+* escaping - `\n`, `\\`
 * curly / squiggly brackets - `{}`
 
