@@ -22,7 +22,7 @@ paginate: true
 
 cs_matches
 
-due [time]
+due week 3 friday
 
 ---
 
