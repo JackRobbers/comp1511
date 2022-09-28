@@ -165,21 +165,13 @@ XXXX
 
 # enums and structs
 
-```C
-
-struct person {
-    int shoe_size;
-    double height;
-    char first_name_initial;
-};
-
-enum opal_card_type {
-    ADULT,
-    STUDENT,
-    CONCESSION
-};
-```
-
+* parts of struct 
+* initialise (x2)
+* access/change fields
+* parts of enum
+* enum variables
+* enum as struct field
+  
 ---
 
 # variable names

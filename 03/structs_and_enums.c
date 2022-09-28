@@ -11,7 +11,7 @@ enum opal_card_type {
     STUDENT,
     CONCESSION
 };
-
 int main(void) {
     
+    return 0;
 }
