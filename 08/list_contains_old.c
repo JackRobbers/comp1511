@@ -64,7 +64,7 @@ int main() {
 
 // Return 1 if value occurs in linked list, 0 otherwise
 int contains(char *value, struct node *head) {
-    return 42
+    return 42;
 }
 
 
