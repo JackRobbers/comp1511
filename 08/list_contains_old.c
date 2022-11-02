@@ -64,15 +64,7 @@ int main() {
 
 // Return 1 if value occurs in linked list, 0 otherwise
 int contains(char *value, struct node *head) {
-    struct node *curr = head;
-    while (curr != NULL && strcmp(curr->data, value) != 0) {
-        curr = curr->next;
-    }
-
-    if (curr == NULL) {
-        return 0;
-    }
-    return 1;
+    return 42
 }
 
 
