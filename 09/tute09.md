@@ -38,4 +38,12 @@ see refactor.c
 
 # free
 
-memory leak
+* memory leak 
+* use after free
+* double free
+
+---
+
+# linked list exercises
+
+starting with copy and list_append
