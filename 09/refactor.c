@@ -31,34 +31,31 @@ void place_log(struct board_tile board[SIZE][SIZE]) {
     // this code would pass 1511 style, but isn't good style
     // how would you fix the style here?
     // (there's also a bug, can you spot it?)
-    if (!turtles_in_row 
-        && row > 0 
-        && row < SIZE - 1 
-        && start_column >= 0 
-        && end_column < SIZE
-    ) {
-        for (int i = start_column; i < end_column; i++) {
-            board[row][i].type = LOG;
+    if (!turtles_in_row) {
+        if (row > 0 && row < SIZE - 1 ) {
+            if (start_column >= 0 && end_column < SIZE) {
+                for (int i = start_column; i < end_column; i++) {
+                    board[row][i].type = LOG;
+                }
+            }
         }
-    } else if (!turtles_in_row 
-        && row > 0 
-        && row < SIZE - 1
-        && start_column >= 0 
-        && end_column >= SIZE
-    ) { 
-        end_column = SIZE - 1;
-        for (int i = start_column; i < end_column; i++) {
-            board[row][i].type = LOG;
+    } else if (!turtles_in_row) {
+        if (row > 0 && row < SIZE - 1 ) {
+            if (start_column < 0 && end_column < SIZE) {
+                end_column = SIZE - 1;
+                for (int i = start_column; i < end_column; i++) {
+                    board[row][i].type = LOG;
+                }
+            }
         }
-    } else if (!turtles_in_row 
-        && row > 0 
-        && row < SIZE - 1
-        && start_column < 0 
-        && end_column < SIZE
-    ) { 
-        start_column = 0;
-        for (int i = start_column; i < end_column; i++) {
-            board[row][i].type = LOG;
+    } else if (!turtles_in_row) {
+        if (row > 0 && row < SIZE - 1 ) {
+            if (start_column >= 0 && end_column >= SIZE) {
+                end_column = SIZE - 1;
+                for (int i = start_column; i < end_column; i++) {
+                    board[row][i].type = LOG;
+                }
+            }
         }
     }
 }
