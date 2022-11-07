@@ -33,3 +33,9 @@ style: |
 # refactoring
 
 see refactor.c
+
+---
+
+# free
+
+memory leak
