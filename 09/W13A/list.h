@@ -14,7 +14,8 @@ struct node *add_last(struct node *head, int data);
 // Prints the data of a linked list
 void print_list(struct node *head);
 
-// Returns a copy of the linked list and frees the original list.
+// Returns a copy of the linked list
+// the new list must be fully independent of the old list
 struct node *copy(struct node *head);
 
 // Returns a new linked list where it is the second appended to the first
