@@ -6,7 +6,9 @@ int main(void) {
     scanf(" ");
     printf("doing it\n");
     while (1) {
-        
-        malloc(10000);
+        void *memory = malloc(10000);
+        // do something with the memory
+        free(memory);
     }
+
 }
