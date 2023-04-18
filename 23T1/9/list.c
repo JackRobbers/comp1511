@@ -6,11 +6,6 @@
 
 #include "list.h"
 
-int main(void) {
-
-    return 0;
-}
-
 /** PRESCRIBED FUNCTIONS **/
 
 struct node *add_last(struct node *head, int data) {
